@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<robot  name="physics 21">
+    <link name="Second">
+        <visual>
+            .<origin rpy="0 0 0" xyz="0 0 0"/>
+            <geometry>
+            <mesh scale= "0.0075 0.0075 0.0075" filename="Ring.obj"/>
+            </geometry>
+            <material name="Blue">
+            <color rgba="0 0 .8 2"/>
+            </material>
+        </visual>
+
+        <inertial>
+            <origin rpy="0 0 0" xyz="0 0 0"/>
+            <mass value=".05"/>
+            <inertia ixx="0" ixy="0.0" ixz="0.0" iyy="0" iyz="0.0" izz="0"/>
+        </inertial>
+    </link>
+</robot>  
