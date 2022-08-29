@@ -2,7 +2,6 @@ import pybullet as pb
 import numpy as np
 import time
 import transforms3d as tf
-import plotly.graph_objects as go
 
 
 np.set_printoptions(precision=3, suppress=True)  # neat printing
